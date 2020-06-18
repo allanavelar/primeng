@@ -1,32 +1,64 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+/aot
+
+# source
+src
+
+# test
+e2e
+karma.conf.js
+protractor.conf.js
+*.spec.d.ts
+*.spec.js
+*.spec.js.map
+*.spec.metadata.json
+*.spec.ngsummary.json
+
 # dependencies
 node_modules
 
-# demo
-showcase
-index.html
-upload.php
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.editorconfig
 
-# typescript
-*.ts
-!*.d.ts
-
-# git
-.git
-.gitignore
-
-# config
-tsconfig.json
-tsconfig-aot.json
-webpack.config.js
-config
-gulpfile.js
-
-# aot
-aot
+# IDE - VSCode
+/.vscode
 
 # misc
-*.log
-prod
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+.gitignore
+exports
+CHANGELOG.md
+.travis.yml
 
+# config
+.angular-cli.json
+angular.json
+tsconfig*.json
+tslint.json
+gulpfile.js
+.github
 
+# System Files
+.DS_Store
+Thumbs.db
 
+# aot
+*.ngfactory.js
+*.ngfactory.js.map
+*.ngsummary.json
